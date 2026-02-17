@@ -64,7 +64,7 @@ export default function ContactGods() {
       cursor: "pointer",
       textTransform: "uppercase",
       letterSpacing: "2px",
-      color: active ? "#ffd166" : "#c9b56d",
+      color: active ? "#5dade2" : "#7fb3d8",
       transition: "all 0.3s ease",
       transform: active ? "translateY(-2px)" : "none",
     }),
@@ -85,7 +85,7 @@ export default function ContactGods() {
       textAlign: "center",
       fontSize: "56px",
       letterSpacing: "8px",
-      color: "#f5e6c8",
+      color: "#aed6f1",
       textShadow: "0 6px 25px rgba(0,0,0,0.6)",
       marginBottom: "20px",
     },
@@ -100,12 +100,12 @@ export default function ContactGods() {
     sectionTitle: {
       fontSize: "26px",
       letterSpacing: "5px",
-      color: "#e8d9b5",
+      color: "#aed6f1",
       marginBottom: "45px",
     },
 
     info: {
-      color: "#f1e8d6",
+      color: "#aed6f1",
       fontSize: "16px",
     },
 
@@ -150,7 +150,7 @@ export default function ContactGods() {
       marginTop: "16px",
       height: "1px",
       background:
-        "linear-gradient(to right, transparent, #e8d9b5, transparent)",
+        "linear-gradient(to right, transparent, #aed6f1, transparent)",
     },
 
     checkbox: {
@@ -159,7 +159,7 @@ export default function ContactGods() {
       gap: "12px",
       fontSize: "13px",
       letterSpacing: "2px",
-      color: "#f1e8d6",
+      color: "#aed6f1",
       marginTop: "12px",
     },
 
@@ -174,12 +174,12 @@ export default function ContactGods() {
       borderRadius: "30px",
       border: "none",
       background:
-        "linear-gradient(135deg, #f5c16c, #d4a017)",
+        "linear-gradient(135deg, #5dade2, #3498db)",
       color: "#000",
       cursor: "pointer",
       fontWeight: 700,
       letterSpacing: "3px",
-      boxShadow: "0 12px 35px rgba(245,193,108,0.45)",
+      boxShadow: "0 12px 35px rgba(93,173,226,0.45)",
       transition: "all 0.35s ease",
       transform: hover ? "translateY(-3px)" : "none",
     },

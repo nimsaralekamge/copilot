@@ -8,7 +8,7 @@
 body {
   font-family: "Inter", "Segoe UI", sans-serif;
   background-color: #0a0a0a;
-  color: #f5d07a;
+  color: #5dade2;
   overflow-x: hidden;
 }
 
@@ -22,12 +22,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(212, 175, 55, 0.3);
+  background: rgba(52, 152, 219, 0.3);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(212, 175, 55, 0.5);
+  background: rgba(52, 152, 219, 0.5);
 }
 
 /* ==================================================
@@ -55,7 +55,7 @@ body {
   bottom: 0;
   background: radial-gradient(
     ellipse at top right,
-    rgba(212, 175, 55, 0.08) 0%,
+    rgba(52, 152, 219, 0.08) 0%,
     transparent 50%
   );
   pointer-events: none;
@@ -72,7 +72,7 @@ body {
     rgba(15, 15, 15, 0.98),
     rgba(10, 10, 10, 0.95)
   );
-  border-right: 1px solid rgba(212, 175, 55, 0.15);
+  border-right: 1px solid rgba(52, 152, 219, 0.15);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   position: fixed;
@@ -92,7 +92,7 @@ body {
   background: linear-gradient(
     180deg,
     transparent,
-    rgba(212, 175, 55, 0.3) 50%,
+    rgba(52, 152, 219, 0.3) 50%,
     transparent
   );
 }
@@ -103,7 +103,7 @@ body {
   text-align: center;
   margin-bottom: 50px;
   letter-spacing: 2px;
-  background: linear-gradient(135deg, #f5d07a 0%, #d4af37 100%);
+  background: linear-gradient(135deg, #5dade2 0%, #3498db 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -119,7 +119,7 @@ body {
   transform: translateX(-50%);
   width: 60px;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  background: linear-gradient(90deg, transparent, #3498db, transparent);
 }
 
 .menu {
@@ -140,8 +140,8 @@ body {
 .menu li:hover {
   background: linear-gradient(
     135deg,
-    rgba(212, 175, 55, 0.15),
-    rgba(212, 175, 55, 0.08)
+    rgba(52, 152, 219, 0.15),
+    rgba(52, 152, 219, 0.08)
   );
   transform: translateX(5px);
   padding-left: 24px;
@@ -150,8 +150,8 @@ body {
 .menu li.active {
   background: linear-gradient(
     135deg,
-    rgba(212, 175, 55, 0.2),
-    rgba(212, 175, 55, 0.1)
+    rgba(52, 152, 219, 0.2),
+    rgba(52, 152, 219, 0.1)
   );
   transform: translateX(5px);
   padding-left: 24px;
@@ -165,7 +165,7 @@ body {
   top: 50%;
   width: 3px;
   height: 0;
-  background: linear-gradient(180deg, #f5d07a, #d4af37);
+  background: linear-gradient(180deg, #5dade2, #3498db);
   border-radius: 2px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(-50%);
@@ -207,7 +207,7 @@ body {
   font-size: 36px;
   margin-bottom: 8px;
   letter-spacing: 0.5px;
-  background: linear-gradient(135deg, #f5d07a 0%, #ffd700 100%);
+  background: linear-gradient(135deg, #5dade2 0%, #2980b9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -263,7 +263,7 @@ body {
   left: 0;
   width: 50%;
   height: 3px;
-  background: linear-gradient(90deg, #d4af37, transparent);
+  background: linear-gradient(90deg, #3498db, transparent);
   border-radius: 2px;
 }
 
@@ -302,7 +302,7 @@ body {
     rgba(10, 10, 10, 0.95)
   );
 
-  border: 1px solid rgba(212, 175, 55, 0.25);
+  border: 1px solid rgba(52, 152, 219, 0.25);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 
@@ -320,17 +320,17 @@ body {
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, #d4af37, #f5d07a, #d4af37);
+  background: linear-gradient(90deg, #3498db, #5dade2, #3498db);
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
 .stat-card:hover {
   transform: translateY(-10px) scale(1.02);
-  border-color: rgba(212, 175, 55, 0.5);
+  border-color: rgba(52, 152, 219, 0.5);
   box-shadow: 
-    0 16px 48px rgba(212, 175, 55, 0.25),
-    0 0 80px rgba(212, 175, 55, 0.15),
+    0 16px 48px rgba(52, 152, 219, 0.25),
+    0 0 80px rgba(52, 152, 219, 0.15),
     inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
@@ -342,7 +342,7 @@ body {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 12px;
-  background: linear-gradient(135deg, #f5d07a, #ffd700);
+  background: linear-gradient(135deg, #5dade2, #2980b9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -384,7 +384,7 @@ body {
     rgba(10, 10, 10, 0.95)
   );
 
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(52, 152, 219, 0.2);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 
@@ -399,17 +399,17 @@ body {
   top: 0;
   bottom: 0;
   width: 4px;
-  background: linear-gradient(180deg, #d4af37, #f5d07a);
+  background: linear-gradient(180deg, #3498db, #5dade2);
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
 .inventory-item:hover {
   transform: translateX(8px);
-  border-color: rgba(212, 175, 55, 0.4);
+  border-color: rgba(52, 152, 219, 0.4);
   box-shadow: 
-    0 8px 32px rgba(212, 175, 55, 0.2),
-    0 0 60px rgba(212, 175, 55, 0.1);
+    0 8px 32px rgba(52, 152, 219, 0.2),
+    0 0 60px rgba(52, 152, 219, 0.1);
 }
 
 .inventory-item:hover::before {
@@ -424,7 +424,7 @@ body {
 
 /* Buttons */
 .inventory-item button {
-  background: linear-gradient(135deg, #d4af37 0%, #f5d07a 100%);
+  background: linear-gradient(135deg, #3498db 0%, #5dade2 100%);
   color: #0a0a0a;
   border: none;
   padding: 10px 22px;
@@ -435,7 +435,7 @@ body {
   cursor: pointer;
   letter-spacing: 0.5px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -460,7 +460,7 @@ body {
 
 .inventory-item button:hover {
   transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 6px 25px rgba(212, 175, 55, 0.5);
+  box-shadow: 0 6px 25px rgba(52, 152, 219, 0.5);
 }
 
 .inventory-item button:active {
@@ -482,7 +482,7 @@ body {
     rgba(10, 10, 10, 0.95)
   );
 
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(52, 152, 219, 0.2);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   
@@ -503,7 +503,7 @@ body {
   background: linear-gradient(
     45deg,
     transparent,
-    rgba(212, 175, 55, 0.1),
+    rgba(52, 152, 219, 0.1),
     transparent
   );
   border-radius: 18px;
@@ -580,7 +580,7 @@ body {
    ADDITIONAL STYLES FOR NEW PAGES
 ================================================== */
 .subtitle {
-  color: rgba(245, 208, 122, 0.7);
+  color: rgba(93, 173, 226, 0.7);
   font-size: 14px;
   margin-bottom: 30px;
 }
@@ -593,9 +593,9 @@ body {
 
 .filter-btn {
   padding: 8px 16px;
-  background: rgba(212, 175, 55, 0.1);
-  border: 1px solid rgba(212, 175, 55, 0.2);
-  color: #f5d07a;
+  background: rgba(52, 152, 219, 0.1);
+  border: 1px solid rgba(52, 152, 219, 0.2);
+  color: #5dade2;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -603,13 +603,13 @@ body {
 }
 
 .filter-btn:hover {
-  background: rgba(212, 175, 55, 0.2);
-  border-color: rgba(212, 175, 55, 0.4);
+  background: rgba(52, 152, 219, 0.2);
+  border-color: rgba(52, 152, 219, 0.4);
 }
 
 .filter-btn.active {
-  background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(212, 175, 55, 0.2));
-  border-color: #d4af37;
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.3), rgba(52, 152, 219, 0.2));
+  border-color: #3498db;
   font-weight: 600;
 }
 
@@ -621,7 +621,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   margin-top: 10px;
-  background: linear-gradient(135deg, #f5d07a 0%, #ffd700 100%);
+  background: linear-gradient(135deg, #5dade2 0%, #2980b9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -642,7 +642,7 @@ body {
 }
 
 .seller-profile-section:hover {
-  background: rgba(212, 175, 55, 0.1);
+  background: rgba(52, 152, 219, 0.1);
   transform: translateX(3px);
 }
 
@@ -652,7 +652,7 @@ body {
   height: 45px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #f5d07a;
+  border: 2px solid #5dade2;
   flex-shrink: 0;
 }
 
@@ -661,14 +661,14 @@ body {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #d4af37 0%, #f5d07a 100%);
+  background: linear-gradient(135deg, #3498db 0%, #5dade2 100%);
   color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 20px;
   font-weight: bold;
-  border: 2px solid #f5d07a;
+  border: 2px solid #5dade2;
   flex-shrink: 0;
 }
 
@@ -677,7 +677,7 @@ body {
   margin: 0;
   font-size: 18px;
   font-weight: 600;
-  color: #f5d07a;
+  color: #5dade2;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

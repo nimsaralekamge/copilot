@@ -1,7 +1,7 @@
 :root{
-  /* main golds (slightly stronger for visibility on dark BG) */
-  --gold:  #D1B48C;
-  --muted:  #C5B097;
+  /* main blues (slightly stronger for visibility on dark BG) */
+  --gold:  #5dade2;
+  --muted:  #7fb3d8;
 
   /* frame hierarchy for subtle depth */
   --gold-strong: rgba(250, 242, 217, 0.92);

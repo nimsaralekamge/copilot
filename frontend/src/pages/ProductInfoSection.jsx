@@ -109,7 +109,7 @@ const ProductInfoSection = () => {
     return (
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#050505', color: 'white', fontSize: '24px' }}>
         <p>Product not found</p>
-        <button onClick={() => navigate('/')} style={{ marginTop: '20px', padding: '12px 24px', background: '#d4af37', border: 'none', borderRadius: '8px', cursor: 'pointer', fontSize: '16px', fontWeight: '600' }}>
+        <button onClick={() => navigate('/')} style={{ marginTop: '20px', padding: '12px 24px', background: '#3498db', border: 'none', borderRadius: '8px', cursor: 'pointer', fontSize: '16px', fontWeight: '600' }}>
           Back to Home
         </button>
       </div>
@@ -137,7 +137,7 @@ const ProductInfoSection = () => {
           left: '20px',
           zIndex: 1000,
           padding: '10px 20px',
-          background: 'rgba(212, 175, 55, 0.9)',
+          background: 'rgba(52, 152, 219, 0.9)',
           border: 'none',
           borderRadius: '8px',
           color: '#000',

@@ -5,7 +5,7 @@
 .hp3-scope {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
-  color: #edebd5;
+  color: #aed6f1;
   overflow-x: hidden;
 }
 
@@ -23,7 +23,7 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: 700;
-  color: #edebd5; /* Default Gold Text */
+  color: #aed6f1; /* Default Gold Text */
 }
 
 .hp3-scope .hp3-btn-small {
@@ -70,7 +70,7 @@
 /* Hover Effects */
 .hp3-scope .hp3-cta-btn:hover .hp3-inner {
   stroke: #ffffff;
-  fill: rgba(212, 175, 55, 0.2); 
+  fill: rgba(52, 152, 219, 0.2); 
 }
 .hp3-scope .hp3-cta-btn:hover .hp3-innerBox {
   stroke: #ffffff;
@@ -192,12 +192,12 @@
   font-family: 'Cinzel', serif;
   margin: 10px 0 5px;
   font-size: 1.6rem; 
-  color: #edebd5;
+  color: #aed6f1;
   text-shadow: 0 4px 10px rgba(0,0,0,0.9); /* Essential visibility */
 }
 
 .hp3-scope .hp3-category {
-  color: #d4af37;
+  color: #3498db;
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -209,7 +209,7 @@
 .hp3-scope .hp3-price {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #edebd5;
+  color: #aed6f1;
   margin-top: 5px;
   text-shadow: 0 2px 5px rgba(0,0,0,0.9);
 }
@@ -229,8 +229,8 @@
 
 /* Swiper Controls */
 .hp3-scope .swiper-button-next, .hp3-scope .swiper-button-prev { color: #866c3d; }
-.hp3-scope .swiper-pagination-bullet { background: #edebd5; }
-.hp3-scope .swiper-pagination-bullet-active { background: #edebd5; }
+.hp3-scope .swiper-pagination-bullet { background: #aed6f1; }
+.hp3-scope .swiper-pagination-bullet-active { background: #aed6f1; }
 
 /* Mobile */
 @media (max-width: 768px) {

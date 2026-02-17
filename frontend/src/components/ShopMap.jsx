@@ -7,9 +7,9 @@ import axios from 'axios';
 import RoutingMachine from "./LeafletRoutingMachine";
 
 // --- CUSTOM TAN-GOLD PIN (SVG) ---
-// fill="#2E4B73" inverts to #D1B48C due to CSS filter
+// fill="#2E4B73" inverts to #5dade2 due to CSS filter
 const goldPinSvg = `
-  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="#D1B48C" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="#5dade2" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
     <circle cx="12" cy="10" r="3" fill="#1a1a1a" stroke="none"></circle>
   </svg>

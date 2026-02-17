@@ -29,7 +29,7 @@
   bottom: 0;
   width: 400px; /* Drawer width */
   background: #080808; 
-  border-left: 1px solid rgba(197, 160, 89, 0.3); 
+  border-left: 1px solid rgba(127, 179, 216, 0.3); 
   box-shadow: -10px 0 40px rgba(0,0,0,0.8);
   z-index: 1201; /* Backdrop ekata wada udin */
   
@@ -54,7 +54,7 @@
   left: 20px;
   background: none;
   border: none;
-  color: #c5a059;
+  color: #7fb3d8;
   cursor: pointer;
   transition: 0.3s;
   z-index: 10;
@@ -71,12 +71,12 @@
 .drawer-title {
   font-family: 'Cinzel', serif;
   font-size: 32px;
-  color: #e5cca5;
+  color: #aed6f1;
   margin: 0;
   line-height: 1.2;
 }
 
-.gold-text { color: #c5a059; }
+.gold-text { color: #7fb3d8; }
 
 /* --- Input Fields (UPDATED WITH FIX) --- */
 .input-group {
@@ -89,7 +89,7 @@
 .icon {
   position: absolute;
   left: 0;
-  color: #c5a059;
+  color: #7fb3d8;
   width: 18px;
   z-index: 5;
 }
@@ -98,9 +98,9 @@
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+  border-bottom: 1px solid rgba(127, 179, 216, 0.3);
   padding: 12px 0 12px 30px;
-  color: #f0e6d2;
+  color: #aed6f1;
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   outline: none;
@@ -108,7 +108,7 @@
 }
 
 .drawer-input:focus { 
-  border-bottom-color: #c5a059; 
+  border-bottom-color: #7fb3d8; 
 }
 
 /* === AUTOFILL FIX (DARK BACKGROUND) === */
@@ -118,9 +118,9 @@
 .drawer-input:-webkit-autofill:active {
   /* Box shadow eken background eka Dark Grey (#121212) karanawa */
   -webkit-box-shadow: 0 0 0 30px #121212 inset !important;
-  -webkit-text-fill-color: #f0e6d2 !important;
+  -webkit-text-fill-color: #aed6f1 !important;
   transition: background-color 5000s ease-in-out 0s;
-  caret-color: #c5a059;
+  caret-color: #7fb3d8;
 }
 
 /* --- Buttons --- */
@@ -128,9 +128,9 @@
   margin-top: 20px;
   width: 100%;
   padding: 15px;
-  background: rgba(197, 160, 89, 0.1);
-  border: 1px solid #c5a059;
-  color: #c5a059;
+  background: rgba(127, 179, 216, 0.1);
+  border: 1px solid #7fb3d8;
+  color: #7fb3d8;
   font-family: 'Cinzel', serif;
   font-size: 14px;
   letter-spacing: 2px;
@@ -144,7 +144,7 @@
 }
 
 .gold-btn:hover { 
-  background: #c5a059; 
+  background: #7fb3d8; 
   color: black; 
 }
 
@@ -158,7 +158,7 @@
 }
 
 .switch-link {
-  color: #c5a059;
+  color: #7fb3d8;
   cursor: pointer;
   margin-left: 5px;
   text-decoration: underline;

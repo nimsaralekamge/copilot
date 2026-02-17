@@ -66,7 +66,7 @@ const AdminDashboard = () => {
             <Navbar />
             
             <div style={{ padding: '120px 40px 40px', maxWidth: '1200px', margin: '0 auto' }}>
-                <h1 style={{ color: '#d4af37', borderBottom: '2px solid #333', paddingBottom: '20px' }}>
+                <h1 style={{ color: '#3498db', borderBottom: '2px solid #333', paddingBottom: '20px' }}>
                     Admin Control Center
                 </h1>
                 
@@ -75,7 +75,7 @@ const AdminDashboard = () => {
                 {loading ? <p>Loading system data...</p> : (
                     <table style={{ width: '100%', marginTop: '30px', borderCollapse: 'collapse', backgroundColor: '#111' }}>
                         <thead>
-                            <tr style={{ backgroundColor: '#222', color: '#d4af37', textAlign: 'left' }}>
+                            <tr style={{ backgroundColor: '#222', color: '#3498db', textAlign: 'left' }}>
                                 <th style={{ padding: '15px' }}>ID</th>
                                 <th style={{ padding: '15px' }}>Name</th>
                                 <th style={{ padding: '15px' }}>Email</th>
@@ -94,7 +94,7 @@ const AdminDashboard = () => {
                                             padding: '5px 10px', 
                                             borderRadius: '20px', 
                                             fontSize: '12px',
-                                            backgroundColor: user.role === 'ADMIN' ? '#d4af37' : '#333',
+                                            backgroundColor: user.role === 'ADMIN' ? '#3498db' : '#333',
                                             color: user.role === 'ADMIN' ? '#000' : '#fff'
                                         }}>
                                             {user.role}
