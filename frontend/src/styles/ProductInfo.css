@@ -14,7 +14,7 @@ body, html {
   width: 100%;
   min-height: 100vh;
   background-color: #050505; 
-  color: #f1e2ab ;
+  color: #aed6f1 ;
   font-family: 'Lato', sans-serif;
   overflow: hidden; /* Ensures video doesn't spill out */
 }
@@ -110,7 +110,7 @@ body, html {
 .product-title {
   font-family: 'Playfair Display', serif;
   font-size: 3.5rem;
-  color: #D1B48C;
+  color: #5dade2;
   margin-bottom: 10px;
   line-height: 1.1;
 }
@@ -145,7 +145,7 @@ body, html {
 }
 
 .spec-value {
-  color: #f1e2ab ;
+  color: #aed6f1 ;
   font-weight: 600;
 }
 
@@ -156,7 +156,7 @@ body, html {
 
 .price-tag {
   font-size: 2.2rem;
-  color: #D1B48C;
+  color: #5dade2;
   font-family: 'Playfair Display', serif;
   margin-bottom: 25px;
 }
@@ -192,14 +192,14 @@ body, html {
 
 .hp1-inner {
   fill: transparent;
-  stroke: #D1B48C; 
+  stroke: #5dade2; 
   stroke-width: 1.5;
   transition: all 0.3s ease;
 }
 
 .hp1-innerBox {
   fill: transparent;
-  stroke: rgba(212, 175, 55, 0.3);
+  stroke: rgba(52, 152, 219, 0.3);
   stroke-width: 1;
   transition: all 0.3s ease;
 }
@@ -207,7 +207,7 @@ body, html {
 .cta-text {
   position: relative;
   z-index: 2;
-  color: #D1B48C;
+  color: #5dade2;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -216,9 +216,9 @@ body, html {
   transition: color 0.3s ease;
 }
 
-.hp1-cta:hover .hp1-inner { fill: rgba(212, 175, 55, 0.1); stroke: #f1e2ab ; }
+.hp1-cta:hover .hp1-inner { fill: rgba(52, 152, 219, 0.1); stroke: #aed6f1 ; }
 .hp1-cta:hover .hp1-innerBox { stroke: rgba(255, 255, 255, 0.5); }
-.hp1-cta:hover .cta-text { color: #D1B48C; }
+.hp1-cta:hover .cta-text { color: #5dade2; }
 
 /* --- RIGHT SIDE IMAGE --- */
 .product-image-container {
@@ -270,7 +270,7 @@ body, html {
 .section-title {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
-  color: #D1B48C ;
+  color: #5dade2 ;
   margin: 0 0 20px 0;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -284,14 +284,14 @@ body, html {
 
 .gold-bar-vertical {
   width: 4px;
-  background-color: #D1B48C;
+  background-color: #5dade2;
   flex-shrink: 0;
 }
 
 .section-paragraph {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #f1e2ab ;
+  color: #aed6f1 ;
   margin: 0;
 }
 
@@ -304,9 +304,9 @@ body, html {
 }
 
 .review-badge {
-  background: rgba(212, 175, 55, 0.1);
-  border: 1px solid #D1B48C;
-  color: #D1B48C;
+  background: rgba(52, 152, 219, 0.1);
+  border: 1px solid #5dade2;
+  color: #5dade2;
   font-size: 0.8rem;
   padding: 2px 8px;
   font-family: 'Lato', sans-serif;
@@ -327,7 +327,7 @@ body, html {
 }
 
 .review-item:hover {
-  border-left-color: #D1B48C;
+  border-left-color: #5dade2;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -340,12 +340,12 @@ body, html {
 
 .review-author {
   font-weight: 700;
-  color: #D1B48C ;
+  color: #5dade2 ;
   font-size: 1rem;
 }
 
 .star-row {
-  color: #D1B48C;
+  color: #5dade2;
   font-size: 0.9rem;
 }
 

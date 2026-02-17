@@ -176,7 +176,7 @@
 /* Outer Frame Hover */
 .hp2-cta-btn:hover .hp2-inner {
   stroke: #ffffff; 
-  fill: rgba(212, 175, 55, 0.1); 
+  fill: rgba(52, 152, 219, 0.1); 
   stroke-width: 2px;
 }
 
@@ -203,7 +203,7 @@
   bottom: 20px;
   right: 30px;
   font-size: 2rem;
-  color: #d4af37;
+  color: #3498db;
   opacity: 0.8;
   z-index: 2;
 }

@@ -41,7 +41,7 @@
     font-size: 3rem;
     margin: 0;
     /* Updated Tan-Gold Gradient */
-    background: linear-gradient(135deg, #D1B48C 0%, #E8DCCA 50%, #D1B48C 100%);
+    background: linear-gradient(135deg, #5dade2 0%, #aed6f1 50%, #5dade2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -52,7 +52,7 @@
 
 .mappage-subtitle {
     font-family: 'Montserrat', sans-serif;
-    color: #E8DCCA;
+    color: #aed6f1;
     font-size: 0.85rem;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -99,21 +99,21 @@
 /* DARK ZOOM CONTROLS */
 .leaflet-control-zoom a {
     background-color: #1a1a1a !important;
-    color: #D1B48C !important;
-    border: 1px solid #D1B48C !important;
+    color: #5dade2 !important;
+    border: 1px solid #5dade2 !important;
 }
 
 /* --- 6. DARK & TAN-GOLD POPUPS --- */
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {
     background-color: #111 !important;
-    border: 1px solid #D1B48C;
+    border: 1px solid #5dade2;
     color: #fff !important;
     border-radius: 0px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.9);
 }
 
 .leaflet-popup-close-button {
-    color: #D1B48C !important;
+    color: #5dade2 !important;
 }
 
 .custom-popup {
@@ -123,13 +123,13 @@
 }
 
 .popup-title {
-    color: #D1B48C;
+    color: #5dade2;
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 1px solid rgba(209, 180, 140, 0.3);
+    border-bottom: 1px solid rgba(93, 173, 226, 0.3);
     padding-bottom: 8px;
 }
 
@@ -170,7 +170,7 @@
     display: flex; align-items: center; gap: 10px;
     width: 90%; max-width: 500px; padding: 8px 12px;
     background: rgba(20, 20, 20, 0.85);
-    border: 1px solid rgba(209, 180, 140, 0.3);
+    border: 1px solid rgba(93, 173, 226, 0.3);
     border-radius: 50px;
     backdrop-filter: blur(12px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -178,17 +178,17 @@
 
 .search-overlay input { flex: 1; background: transparent; border: none; color: #fff; outline: none; }
 .search-btn, .locate-btn {
-    background: transparent; border: none; color: #D1B48C;
+    background: transparent; border: none; color: #5dade2;
     width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
     cursor: pointer; border-radius: 50%; transition: all 0.3s ease;
 }
-.search-btn:hover, .locate-btn:hover { background: rgba(209, 180, 140, 0.2); }
+.search-btn:hover, .locate-btn:hover { background: rgba(93, 173, 226, 0.2); }
 
 /* --- 8. GLOW & ANIMATIONS --- */
 @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
 .map-border-glow {
     position: absolute; inset: -1px; border-radius: 25px;
-    background: linear-gradient(180deg, rgba(209, 180, 140, 0.4), transparent 40%);
+    background: linear-gradient(180deg, rgba(93, 173, 226, 0.4), transparent 40%);
     z-index: 0; opacity: 0.6; pointer-events: none;
 }

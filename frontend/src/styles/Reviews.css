@@ -42,12 +42,12 @@
     justify-content: center;
     min-height: 100vh;
     background: #0b0a0a;
-    color: #D4AF37;
+    color: #3498db;
 }
 
 .loader {
-    border: 4px solid rgba(212, 175, 55, 0.2);
-    border-top: 4px solid #D4AF37;
+    border: 4px solid rgba(52, 152, 219, 0.2);
+    border-top: 4px solid #3498db;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -72,9 +72,9 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(212, 175, 55, 0.1);
-    border: 2px solid #D4AF37;
-    color: #D4AF37;
+    background: rgba(52, 152, 219, 0.1);
+    border: 2px solid #3498db;
+    color: #3498db;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 600;
@@ -84,7 +84,7 @@
 }
 
 .back-btn:hover {
-    background: #D4AF37;
+    background: #3498db;
     color: #0b0a0a;
     transform: translateX(-5px);
 }
@@ -92,7 +92,7 @@
 .reviews-title {
     font-size: 3.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #D4AF37 0%, #F4E4C1 100%);
+    background: linear-gradient(135deg, #3498db 0%, #aed6f1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -102,7 +102,7 @@
 
 .reviews-subtitle {
     font-size: 1.2rem;
-    color: #C5B097;
+    color: #7fb3d8;
     font-weight: 300;
 }
 
@@ -118,7 +118,7 @@
 
 .summary-card {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(52, 152, 219, 0.3);
     border-radius: 15px;
     padding: 30px;
     backdrop-filter: blur(10px);
@@ -131,7 +131,7 @@
 .rating-number {
     font-size: 4rem;
     font-weight: 700;
-    color: #D4AF37;
+    color: #3498db;
     display: block;
     margin-bottom: 10px;
 }
@@ -147,18 +147,18 @@
 }
 
 .star.filled {
-    color: #FFD700;
+    color: #2980b9;
 }
 
 .rating-text {
-    color: #C5B097;
+    color: #7fb3d8;
     font-size: 0.9rem;
     margin-top: 10px;
 }
 
 /* Rating Breakdown */
 .rating-breakdown h3 {
-    color: #D4AF37;
+    color: #3498db;
     margin-bottom: 20px;
     font-size: 1.3rem;
 }
@@ -172,7 +172,7 @@
 
 .rating-label {
     width: 50px;
-    color: #C5B097;
+    color: #7fb3d8;
     font-size: 0.9rem;
 }
 
@@ -186,14 +186,14 @@
 
 .rating-bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, #D4AF37 0%, #FFD700 100%);
+    background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
     transition: width 0.5s ease;
 }
 
 .rating-count {
     width: 40px;
     text-align: right;
-    color: #C5B097;
+    color: #7fb3d8;
     font-size: 0.9rem;
 }
 
@@ -210,7 +210,7 @@
 }
 
 .add-review-btn {
-    background: linear-gradient(135deg, #D4AF37 0%, #F4E4C1 100%);
+    background: linear-gradient(135deg, #3498db 0%, #aed6f1 100%);
     color: #0b0a0a;
     border: none;
     padding: 12px 30px;
@@ -219,12 +219,12 @@
     cursor: pointer;
     border-radius: 8px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
 }
 
 .add-review-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.5);
 }
 
 .filter-buttons {
@@ -234,8 +234,8 @@
 
 .filter-btn {
     background: rgba(255, 255, 255, 0.05);
-    border: 2px solid rgba(212, 175, 55, 0.3);
-    color: #C5B097;
+    border: 2px solid rgba(52, 152, 219, 0.3);
+    color: #7fb3d8;
     padding: 10px 20px;
     font-size: 0.9rem;
     font-weight: 600;
@@ -246,15 +246,15 @@
 
 .filter-btn.active,
 .filter-btn:hover {
-    background: rgba(212, 175, 55, 0.2);
-    border-color: #D4AF37;
-    color: #D4AF37;
+    background: rgba(52, 152, 219, 0.2);
+    border-color: #3498db;
+    color: #3498db;
 }
 
 /* Add Review Form */
 .add-review-form {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(52, 152, 219, 0.3);
     position: relative;
     z-index: 1;
     border-radius: 15px;
@@ -264,7 +264,7 @@
 }
 
 .add-review-form h2 {
-    color: #D4AF37;
+    color: #3498db;
     margin-bottom: 30px;
     font-size: 2rem;
 }
@@ -275,7 +275,7 @@
 
 .form-group label {
     display: block;
-    color: #C5B097;
+    color: #7fb3d8;
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 0.95rem;
@@ -285,7 +285,7 @@
 .form-group textarea {
     width: 100%;
     background: rgba(255, 255, 255, 0.05);
-    border: 2px solid rgba(212, 175, 55, 0.3);
+    border: 2px solid rgba(52, 152, 219, 0.3);
     color: #ffffff;
     padding: 12px 15px;
     font-size: 1rem;
@@ -297,7 +297,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #D4AF37;
+    border-color: #3498db;
     background: rgba(255, 255, 255, 0.08);
 }
 
@@ -320,12 +320,12 @@
 
 .star-input:hover,
 .star-input.filled {
-    color: #FFD700;
+    color: #2980b9;
     transform: scale(1.1);
 }
 
 .submit-review-btn {
-    background: linear-gradient(135deg, #D4AF37 0%, #F4E4C1 100%);
+    background: linear-gradient(135deg, #3498db 0%, #aed6f1 100%);
     color: #0b0a0a;
     border: none;
     padding: 15px 40px;
@@ -334,13 +334,13 @@
     cursor: pointer;
     border-radius: 8px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
     margin-top: 10px;
 }
 
 .submit-review-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.5);
 }
 
 /* Reviews List */
@@ -356,15 +356,15 @@
     text-align: center;
     padding: 60px 20px;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(52, 152, 219, 0.3);
     border-radius: 15px;
-    color: #C5B097;
+    color: #7fb3d8;
     font-size: 1.2rem;
 }
 
 .review-card {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(52, 152, 219, 0.3);
     border-radius: 15px;
     padding: 30px;
     backdrop-filter: blur(10px);
@@ -373,8 +373,8 @@
 
 .review-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
-    border-color: rgba(212, 175, 55, 0.6);
+    box-shadow: 0 10px 30px rgba(52, 152, 219, 0.2);
+    border-color: rgba(52, 152, 219, 0.6);
 }
 
 .review-header {
@@ -396,7 +396,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #D4AF37 0%, #F4E4C1 100%);
+    background: linear-gradient(135deg, #3498db 0%, #aed6f1 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -424,23 +424,23 @@
 }
 
 .review-date {
-    color: #C5B097;
+    color: #7fb3d8;
     font-size: 0.85rem;
 }
 
 .review-product {
-    background: rgba(212, 175, 55, 0.1);
-    border-left: 3px solid #D4AF37;
+    background: rgba(52, 152, 219, 0.1);
+    border-left: 3px solid #3498db;
     padding: 8px 15px;
     margin-bottom: 15px;
-    color: #D4AF37;
+    color: #3498db;
     font-size: 0.9rem;
     font-weight: 600;
     border-radius: 4px;
 }
 
 .review-title {
-    color: #D4AF37;
+    color: #3498db;
     font-size: 1.3rem;
     margin-bottom: 10px;
     font-weight: 600;
@@ -463,8 +463,8 @@
 .helpful-btn,
 .report-btn {
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(212, 175, 55, 0.3);
-    color: #C5B097;
+    border: 1px solid rgba(52, 152, 219, 0.3);
+    color: #7fb3d8;
     padding: 8px 15px;
     font-size: 0.85rem;
     cursor: pointer;
@@ -473,9 +473,9 @@
 }
 
 .helpful-btn:hover {
-    background: rgba(212, 175, 55, 0.2);
-    border-color: #D4AF37;
-    color: #D4AF37;
+    background: rgba(52, 152, 219, 0.2);
+    border-color: #3498db;
+    color: #3498db;
 }
 
 .report-btn:hover {

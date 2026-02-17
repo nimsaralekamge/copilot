@@ -29,12 +29,12 @@ export default function Reports() {
   ];
 
   // Colors for the Pie Chart matching your gold/dark theme
-  const PIE_COLORS = ['#d4af37', '#f5d07a', '#a67c00', '#ebd8a0'];
+  const PIE_COLORS = ['#3498db', '#5dade2', '#1a5276', '#aed6f1'];
 
   // Custom tooltip style for dark mode
   const customTooltipStyle = {
     backgroundColor: '#222',
-    border: '1px solid #d4af37',
+    border: '1px solid #3498db',
     borderRadius: '8px',
     color: '#fff'
   };
@@ -68,22 +68,22 @@ export default function Reports() {
           
           {/* CHART 1: Monthly Revenue Line Chart */}
           <div style={{ background: '#1a1a1a', padding: '20px', borderRadius: '12px', border: '1px solid #333' }}>
-            <h3 style={{ color: '#d4af37', marginBottom: '20px', textAlign: 'center' }}>Monthly Revenue (Last 6 Months)</h3>
+            <h3 style={{ color: '#3498db', marginBottom: '20px', textAlign: 'center' }}>Monthly Revenue (Last 6 Months)</h3>
             <div style={{ width: '100%', height: 300 }}>
               <ResponsiveContainer>
                 <LineChart data={monthlyRevenueData} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#333" />
                   <XAxis dataKey="name" stroke="#aaa" />
                   <YAxis stroke="#aaa" />
-                  <Tooltip contentStyle={customTooltipStyle} itemStyle={{ color: '#d4af37' }} />
+                  <Tooltip contentStyle={customTooltipStyle} itemStyle={{ color: '#3498db' }} />
                   <Legend wrapperStyle={{ paddingTop: '10px' }}/>
                   <Line 
                     type="monotone" 
                     dataKey="revenue" 
                     name="Revenue (LKR)"
-                    stroke="#d4af37" 
+                    stroke="#3498db" 
                     strokeWidth={3} 
-                    dot={{ fill: '#d4af37', strokeWidth: 2, r: 4 }} 
+                    dot={{ fill: '#3498db', strokeWidth: 2, r: 4 }} 
                     activeDot={{ r: 8 }} 
                   />
                 </LineChart>
@@ -93,7 +93,7 @@ export default function Reports() {
 
           {/* CHART 2: Category Pie Chart */}
           <div style={{ background: '#1a1a1a', padding: '20px', borderRadius: '12px', border: '1px solid #333' }}>
-            <h3 style={{ color: '#d4af37', marginBottom: '20px', textAlign: 'center' }}>Most Popular Categories</h3>
+            <h3 style={{ color: '#3498db', marginBottom: '20px', textAlign: 'center' }}>Most Popular Categories</h3>
             <div style={{ width: '100%', height: 300 }}>
               <ResponsiveContainer>
                 <PieChart>

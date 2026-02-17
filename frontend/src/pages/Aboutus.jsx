@@ -20,7 +20,7 @@ export default function AboutUsExact() {
       backgroundSize: "cover",
       backgroundPosition: "center",
       fontFamily: "Montserrat, sans-serif",
-      color: "#e7dcc6",
+      color: "#aed6f1",
     },
 
     heroNav: {
@@ -38,7 +38,7 @@ export default function AboutUsExact() {
     },
 
     navGroupLink: {
-      color: "#e7dcc6",
+      color: "#aed6f1",
       textDecoration: "none",
       fontSize: "13px",
       letterSpacing: "3px",
@@ -57,10 +57,10 @@ export default function AboutUsExact() {
       fontSize: "34px",
       letterSpacing: "7px",
       fontWeight: 800,
-      background: "linear-gradient(180deg, #f9e29b, #d4af37, #8b6b32)",
+      background: "linear-gradient(180deg, #85c1e9, #3498db, #8b6b32)",
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent",
-      textShadow: "0 0 20px rgba(212,175,55,0.25)",
+      textShadow: "0 0 20px rgba(52,152,219,0.25)",
     },
 
     pageContent: {
@@ -74,7 +74,7 @@ export default function AboutUsExact() {
       fontSize: "44px",
       letterSpacing: "8px",
       fontWeight: 700,
-      color: "#f3e7c3",
+      color: "#aed6f1",
       textShadow: "0 6px 25px rgba(0,0,0,0.7)",
     },
 
@@ -82,7 +82,7 @@ export default function AboutUsExact() {
       marginTop: "20px",
       fontSize: "15px",
       letterSpacing: "4px",
-      color: "#d8c29a",
+      color: "#85c1e9",
     },
 
     description: {
@@ -95,7 +95,7 @@ export default function AboutUsExact() {
 
     highlight: {
       fontWeight: 700,
-      color: "#f9e29b",
+      color: "#85c1e9",
     },
 
     divider: {
@@ -113,7 +113,7 @@ export default function AboutUsExact() {
 
     star: {
       margin: "0 20px",
-      color: "#d4af37",
+      color: "#3498db",
       fontSize: "14px",
     },
 
@@ -125,10 +125,10 @@ export default function AboutUsExact() {
       letterSpacing: "4px",
       fontSize: "13px",
       cursor: "pointer",
-      color: hoverBtn ? "#000" : "#e7dcc6",
-      backgroundColor: hoverBtn ? "#d4af37" : "transparent",
+      color: hoverBtn ? "#000" : "#aed6f1",
+      backgroundColor: hoverBtn ? "#3498db" : "transparent",
       transition: "all 0.4s ease",
-      boxShadow: hoverBtn ? "0 0 25px rgba(212,175,55,0.6)" : "none",
+      boxShadow: hoverBtn ? "0 0 25px rgba(52,152,219,0.6)" : "none",
     },
 
     bottomDivider: {
@@ -156,14 +156,14 @@ export default function AboutUsExact() {
     cardTitle: {
       fontSize: "18px",
       letterSpacing: "4px",
-      color: "#f3e7c3",
+      color: "#aed6f1",
     },
 
     cardSubtitle: {
       marginTop: "10px",
       fontSize: "12px",
       letterSpacing: "3px",
-      color: "#d8c29a",
+      color: "#85c1e9",
     },
 
     cardDesc: {
