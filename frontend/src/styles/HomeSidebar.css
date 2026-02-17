@@ -1,16 +1,16 @@
 /* --- VARIABLES: CONTROL COLORS HERE --- */
 :root {
     /* 1. TEXT COLOR (Home, Releases, Follow Us) */
-    --text-color: #E8DCCA; 
+    --text-color: #aed6f1; 
     
     /* 2. ICON COLOR (The Logos inside) */
-    --icon-color: #E8DCCA; 
+    --icon-color: #aed6f1; 
 
     /* 3. FRAME COLOR (The Diamond/Square Borders) */
-    --frame-color: #D1B48C; 
+    --frame-color: #5dade2; 
 
     /* Dotted Line Color */
-    --line-dim:#D1B48C;
+    --line-dim:#5dade2;
     
     /* Background Overlay Color */
     --overlay-bg: rgba(15, 15, 15, 0.85); 

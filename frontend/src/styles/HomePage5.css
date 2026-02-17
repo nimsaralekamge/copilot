@@ -163,13 +163,13 @@
 .hp5-fancy-btn:hover .hp5-poly,
 .hp5-fancy-btn:hover .hp5-rect {
     stroke: #fff; /* Turns white */
-    filter: drop-shadow(0 0 8px #D4AF37); /* Gold Glow */
+    filter: drop-shadow(0 0 8px #3498db); /* Blue Glow */
     opacity: 1;
 }
 
 .hp5-fancy-btn:hover .hp5-btn-text {
     color: #fff;
-    text-shadow: 0 0 15px #D4AF37;
+    text-shadow: 0 0 15px #3498db;
     transform: scale(1.05); 
 }
 

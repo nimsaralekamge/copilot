@@ -42,7 +42,7 @@ function Homepage() {
           alignItems: 'center',
           justifyContent: 'center',
           cursor: 'pointer',
-          border: '2px solid #d4af37', 
+          border: '2px solid #3498db', 
           boxShadow: '0 4px 6px rgba(0,0,0,0.3)'
         }}
       >
@@ -52,7 +52,7 @@ function Homepage() {
             height="24" 
             viewBox="0 0 24 24" 
             fill="none" 
-            stroke="#d4af37" 
+            stroke="#3498db" 
             strokeWidth="2" 
             strokeLinecap="round" 
             strokeLinejoin="round"

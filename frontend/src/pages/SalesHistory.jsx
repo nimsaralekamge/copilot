@@ -74,7 +74,7 @@ export default function SalesHistory() {
           ) : (
             <table style={{ width: '100%', borderCollapse: 'collapse', color: 'white' }}>
               <thead>
-                <tr style={{ borderBottom: '2px solid #d4af37', textAlign: 'left', color: '#d4af37' }}>
+                <tr style={{ borderBottom: '2px solid #3498db', textAlign: 'left', color: '#3498db' }}>
                   <th style={{ padding: '12px' }}>Order ID</th>
                   <th style={{ padding: '12px' }}>Item(s)</th>
                   <th style={{ padding: '12px' }}>Customer</th>

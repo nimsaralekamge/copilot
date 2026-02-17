@@ -70,7 +70,7 @@
 /* Hover Effects */
 .hp3-scope .hp3-cta-btn:hover .hp3-inner {
   stroke: #ffffff;
-  fill: rgba(212, 175, 55, 0.2); 
+  fill: rgba(52, 152, 219, 0.2); 
 }
 .hp3-scope .hp3-cta-btn:hover .hp3-innerBox {
   stroke: #ffffff;
@@ -197,7 +197,7 @@
 }
 
 .hp3-scope .hp3-category {
-  color: #d4af37;
+  color: #3498db;
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 2px;

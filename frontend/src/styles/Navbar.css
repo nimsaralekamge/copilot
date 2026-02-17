@@ -26,7 +26,7 @@
   height: 70px;
   background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  border-bottom: 1px solid rgba(52, 152, 219, 0.3);
 }
 
 /* Common Section Styles */
@@ -150,7 +150,7 @@
 }
 
 .social-link:hover {
-  color: #d4af37;
+  color: #3498db;
 }
 
 .action-btn {
@@ -165,7 +165,7 @@
 }
 
 .action-btn:hover {
-  color: #d4af37; 
+  color: #3498db; 
 }
 
 /* =========================================
@@ -191,14 +191,14 @@
   width: 35px;
   height: 35px;
   border-radius: 50%; /* Circle shape */
-  border: 2px solid #c5a059; /* Gold border */
+  border: 2px solid #3498db; /* Blue border */
   object-fit: cover;
-  box-shadow: 0 0 10px rgba(197, 160, 89, 0.3); /* Gold glow */
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.3); /* Blue glow */
 }
 
 .user-name-display {
   font-family: 'Cinzel', serif;
-  color: #e5cca5;
+  color: #5dade2;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 1px;

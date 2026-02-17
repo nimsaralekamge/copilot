@@ -67,11 +67,11 @@ const AllStores = () => {
       {/* Grid */}
       <div className="stores-grid">
         {loading ? (
-          <div style={{ gridColumn: '1 / -1', textAlign: 'center', color: '#D1B48C', fontSize: '20px', padding: '40px' }}>
+          <div style={{ gridColumn: '1 / -1', textAlign: 'center', color: '#5dade2', fontSize: '20px', padding: '40px' }}>
             Loading stores...
           </div>
         ) : filteredStores.length === 0 ? (
-          <div style={{ gridColumn: '1 / -1', textAlign: 'center', color: '#D1B48C', fontSize: '20px', padding: '40px' }}>
+          <div style={{ gridColumn: '1 / -1', textAlign: 'center', color: '#5dade2', fontSize: '20px', padding: '40px' }}>
             No stores found.
           </div>
         ) : (

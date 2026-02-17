@@ -98,7 +98,7 @@ const StorePage = () => {
                     style={{
                         marginTop: '20px',
                         padding: '12px 24px',
-                        background: '#d4af37',
+                        background: '#3498db',
                         border: 'none',
                         borderRadius: '8px',
                         cursor: 'pointer',
@@ -129,9 +129,9 @@ const StorePage = () => {
                     <button
                         onClick={() => navigate('/all-stores')}
                         style={{
-                            background: 'rgba(212, 175, 55, 0.15)',
-                            border: '1.5px solid #D1B48C',
-                            color: '#D1B48C',
+                            background: 'rgba(52, 152, 219, 0.15)',
+                            border: '1.5px solid #3498db',
+                            color: '#3498db',
                             fontFamily: "'Montserrat', sans-serif",
                             fontWeight: 600,
                             fontSize: '1rem',
@@ -144,14 +144,14 @@ const StorePage = () => {
                             transition: 'background 0.3s, color 0.3s, border 0.3s',
                         }}
                         onMouseOver={e => {
-                            e.target.style.background = 'rgba(212, 175, 55, 0.3)';
+                            e.target.style.background = 'rgba(52, 152, 219, 0.3)';
                             e.target.style.color = '#fff';
                             e.target.style.border = '1.5px solid #fff';
                         }}
                         onMouseOut={e => {
-                            e.target.style.background = 'rgba(212, 175, 55, 0.15)';
-                            e.target.style.color = '#D1B48C';
-                            e.target.style.border = '1.5px solid #D1B48C';
+                            e.target.style.background = 'rgba(52, 152, 219, 0.15)';
+                            e.target.style.color = '#3498db';
+                            e.target.style.border = '1.5px solid #3498db';
                         }}
                     >
                         ← BACK TO STORES
@@ -163,7 +163,7 @@ const StorePage = () => {
                     <p style={{
                         fontFamily: "'Montserrat', sans-serif",
                         fontSize: '1.2rem',
-                        color: '#C5B097',
+                        color: '#7fb3d8',
                         maxWidth: '800px',
                         margin: '0 auto 15px',
                         lineHeight: '1.8',
@@ -174,7 +174,7 @@ const StorePage = () => {
 
                     {shop.contactNo && (
                         <p style={{
-                            color: '#D1B48C',
+                            color: '#5dade2',
                             fontSize: '1rem',
                             fontFamily: "'Montserrat', sans-serif",
                             letterSpacing: '1px',

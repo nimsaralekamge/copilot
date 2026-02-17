@@ -266,24 +266,24 @@ export default function MyListings() {
                 <div style={{
                   background: "linear-gradient(145deg, rgba(20, 20, 20, 0.95), rgba(10, 10, 10, 0.98))",
                   padding: "30px", borderRadius: "16px", width: "90%", maxWidth: "600px", maxHeight: "90vh",
-                  overflowY: "auto", border: "1px solid rgba(212, 175, 55, 0.3)", boxShadow: "0 8px 32px rgba(212, 175, 55, 0.2)"
+                  overflowY: "auto", border: "1px solid rgba(52, 152, 219, 0.3)", boxShadow: "0 8px 32px rgba(52, 152, 219, 0.2)"
                 }}>
-                  <h2 style={{ color: "#f5d07a", marginBottom: "20px" }}>Add New Product</h2>
+                  <h2 style={{ color: "#5dade2", marginBottom: "20px" }}>Add New Product</h2>
                   
                   <form onSubmit={handleAddProduct}>
                     <div style={{ marginBottom: "15px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Product Name *</label>
-                      <input type="text" name="productName" value={formData.productName} onChange={handleInputChange} required style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Product Name *</label>
+                      <input type="text" name="productName" value={formData.productName} onChange={handleInputChange} required style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                     </div>
 
                     <div style={{ marginBottom: "15px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Description *</label>
-                      <textarea name="productDescription" value={formData.productDescription} onChange={handleInputChange} required rows="4" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white", resize: "vertical" }} />
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Description *</label>
+                      <textarea name="productDescription" value={formData.productDescription} onChange={handleInputChange} required rows="4" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white", resize: "vertical" }} />
                     </div>
 
                     <div style={{ marginBottom: "15px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Category *</label>
-                      <select name="category" value={selectedCategory?.name || formData.category} onChange={handleInputChange} disabled={!!selectedCategory} required style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }}>
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Category *</label>
+                      <select name="category" value={selectedCategory?.name || formData.category} onChange={handleInputChange} disabled={!!selectedCategory} required style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }}>
                         <option value="" style={{color: "black"}}>Select Category</option>
                         {CATEGORIES.map((cat) => (
                             <option key={cat.name} value={cat.name} style={{color: "black"}}>{cat.name}</option>
@@ -293,25 +293,25 @@ export default function MyListings() {
 
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "15px", marginBottom: "15px" }}>
                       <div>
-                        <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Price (Rs.) *</label>
-                        <input type="number" name="price" value={formData.price} onChange={handleInputChange} required step="0.01" min="0" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                        <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Price (Rs.) *</label>
+                        <input type="number" name="price" value={formData.price} onChange={handleInputChange} required step="0.01" min="0" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                       </div>
 
                       <div>
-                        <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Available Qty *</label>
-                        <input type="number" name="available" value={formData.available} onChange={handleInputChange} required min="0" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                        <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Available Qty *</label>
+                        <input type="number" name="available" value={formData.available} onChange={handleInputChange} required min="0" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                       </div>
                     </div>
 
                     <div style={{ marginBottom: "15px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Image URL</label>
-                      <input type="text" name="imageUrl" value={formData.imageUrl} onChange={handleInputChange} placeholder="https://example.com/image.jpg" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Image URL</label>
+                      <input type="text" name="imageUrl" value={formData.imageUrl} onChange={handleInputChange} placeholder="https://example.com/image.jpg" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                     </div>
 
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "15px", marginBottom: "15px" }}>
                       <div>
-                        <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Rental Condition</label>
-                        <select name="rentalCondition" value={formData.rentalCondition} onChange={handleInputChange} style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }}>
+                        <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Rental Condition</label>
+                        <select name="rentalCondition" value={formData.rentalCondition} onChange={handleInputChange} style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }}>
                             <option value="" style={{color: "black"}}>Select Condition</option>
                             <option value="GRADE_A" style={{color: "black"}}>Grade A (New)</option>
                             <option value="GRADE_B" style={{color: "black"}}>Grade B (Good)</option>
@@ -320,18 +320,18 @@ export default function MyListings() {
                       </div>
 
                       <div>
-                        <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Min. Duration (Days)</label>
-                        <input type="number" name="minDuration" value={formData.minDuration} onChange={handleInputChange} placeholder="2" min="1" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                        <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Min. Duration (Days)</label>
+                        <input type="number" name="minDuration" value={formData.minDuration} onChange={handleInputChange} placeholder="2" min="1" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                       </div>
                     </div>
 
                     <div style={{ marginBottom: "20px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Cleaning Fee (Rs.)</label>
-                      <input type="number" name="cleaningFee" value={formData.cleaningFee} onChange={handleInputChange} placeholder="0.00" min="0" step="0.01" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Cleaning Fee (Rs.)</label>
+                      <input type="number" name="cleaningFee" value={formData.cleaningFee} onChange={handleInputChange} placeholder="0.00" min="0" step="0.01" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                     </div>
 
                     <div style={{ display: "flex", gap: "10px" }}>
-                      <button type="submit" style={{ flex: 1, padding: "12px", background: "linear-gradient(135deg, #d4af37 0%, #f5d07a 100%)", color: "#0a0a0a", border: "none", borderRadius: "8px", fontWeight: "600", cursor: "pointer", fontSize: "16px" }}>Add Product</button>
+                      <button type="submit" style={{ flex: 1, padding: "12px", background: "linear-gradient(135deg, #3498db 0%, #5dade2 100%)", color: "#0a0a0a", border: "none", borderRadius: "8px", fontWeight: "600", cursor: "pointer", fontSize: "16px" }}>Add Product</button>
                       <button type="button" onClick={() => setShowAddForm(false)} style={{ flex: 1, padding: "12px", background: "rgba(255,255,255,0.1)", color: "white", border: "1px solid rgba(255,255,255,0.2)", borderRadius: "8px", fontWeight: "600", cursor: "pointer", fontSize: "16px" }}>Cancel</button>
                     </div>
                   </form>
@@ -348,42 +348,42 @@ export default function MyListings() {
                 <div style={{
                   background: "linear-gradient(145deg, rgba(20, 20, 20, 0.95), rgba(10, 10, 10, 0.98))",
                   padding: "30px", borderRadius: "16px", width: "90%", maxWidth: "600px", maxHeight: "90vh",
-                  overflowY: "auto", border: "1px solid rgba(212, 175, 55, 0.3)", boxShadow: "0 8px 32px rgba(212, 175, 55, 0.2)"
+                  overflowY: "auto", border: "1px solid rgba(52, 152, 219, 0.3)", boxShadow: "0 8px 32px rgba(52, 152, 219, 0.2)"
                 }}>
-                  <h2 style={{ color: "#f5d07a", marginBottom: "20px" }}>Edit Product</h2>
+                  <h2 style={{ color: "#5dade2", marginBottom: "20px" }}>Edit Product</h2>
                   
                   <form onSubmit={handleUpdateProduct}>
                     <div style={{ marginBottom: "15px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Product Name *</label>
-                      <input type="text" name="productName" value={editFormData.productName} onChange={handleEditInputChange} required style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Product Name *</label>
+                      <input type="text" name="productName" value={editFormData.productName} onChange={handleEditInputChange} required style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                     </div>
 
                     <div style={{ marginBottom: "15px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Description *</label>
-                      <textarea name="productDescription" value={editFormData.productDescription} onChange={handleEditInputChange} required rows="4" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white", resize: "vertical" }} />
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Description *</label>
+                      <textarea name="productDescription" value={editFormData.productDescription} onChange={handleEditInputChange} required rows="4" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white", resize: "vertical" }} />
                     </div>
 
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "15px", marginBottom: "15px" }}>
                       <div>
-                        <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Price (Rs.) *</label>
-                        <input type="number" name="price" value={editFormData.price} onChange={handleEditInputChange} required step="0.01" min="0" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                        <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Price (Rs.) *</label>
+                        <input type="number" name="price" value={editFormData.price} onChange={handleEditInputChange} required step="0.01" min="0" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                       </div>
 
                       <div>
-                        <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Available Qty *</label>
-                        <input type="number" name="available" value={editFormData.available} onChange={handleEditInputChange} required min="0" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                        <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Available Qty *</label>
+                        <input type="number" name="available" value={editFormData.available} onChange={handleEditInputChange} required min="0" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                       </div>
                     </div>
 
                     <div style={{ marginBottom: "15px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Image URL</label>
-                      <input type="text" name="imageUrl" value={editFormData.imageUrl} onChange={handleEditInputChange} placeholder="https://example.com/image.jpg" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Image URL</label>
+                      <input type="text" name="imageUrl" value={editFormData.imageUrl} onChange={handleEditInputChange} placeholder="https://example.com/image.jpg" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                     </div>
 
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "15px", marginBottom: "15px" }}>
                       <div>
-                        <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Rental Condition</label>
-                        <select name="rentalCondition" value={editFormData.rentalCondition} onChange={handleEditInputChange} style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }}>
+                        <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Rental Condition</label>
+                        <select name="rentalCondition" value={editFormData.rentalCondition} onChange={handleEditInputChange} style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }}>
                             <option value="" style={{color: "black"}}>Select Condition</option>
                             <option value="GRADE_A" style={{color: "black"}}>Grade A (New)</option>
                             <option value="GRADE_B" style={{color: "black"}}>Grade B (Good)</option>
@@ -392,18 +392,18 @@ export default function MyListings() {
                       </div>
 
                       <div>
-                        <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Min. Duration (Days)</label>
-                        <input type="number" name="minDuration" value={editFormData.minDuration} onChange={handleEditInputChange} placeholder="2" min="1" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                        <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Min. Duration (Days)</label>
+                        <input type="number" name="minDuration" value={editFormData.minDuration} onChange={handleEditInputChange} placeholder="2" min="1" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                       </div>
                     </div>
 
                     <div style={{ marginBottom: "20px" }}>
-                      <label style={{ display: "block", marginBottom: "5px", color: "#f5d07a" }}>Cleaning Fee (Rs.)</label>
-                      <input type="number" name="cleaningFee" value={editFormData.cleaningFee} onChange={handleEditInputChange} placeholder="0.00" min="0" step="0.01" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(212, 175, 55, 0.3)", borderRadius: "5px", color: "white" }} />
+                      <label style={{ display: "block", marginBottom: "5px", color: "#5dade2" }}>Cleaning Fee (Rs.)</label>
+                      <input type="number" name="cleaningFee" value={editFormData.cleaningFee} onChange={handleEditInputChange} placeholder="0.00" min="0" step="0.01" style={{ width: "100%", padding: "10px", background: "rgba(255,255,255,0.1)", border: "1px solid rgba(52, 152, 219, 0.3)", borderRadius: "5px", color: "white" }} />
                     </div>
 
                     <div style={{ display: "flex", gap: "10px" }}>
-                      <button type="submit" style={{ flex: 1, padding: "12px", background: "linear-gradient(135deg, #d4af37 0%, #f5d07a 100%)", color: "#0a0a0a", border: "none", borderRadius: "8px", fontWeight: "600", cursor: "pointer", fontSize: "16px" }}>Update Product</button>
+                      <button type="submit" style={{ flex: 1, padding: "12px", background: "linear-gradient(135deg, #3498db 0%, #5dade2 100%)", color: "#0a0a0a", border: "none", borderRadius: "8px", fontWeight: "600", cursor: "pointer", fontSize: "16px" }}>Update Product</button>
                       <button type="button" onClick={() => { setShowEditForm(false); setEditingProduct(null); }} style={{ flex: 1, padding: "12px", background: "rgba(255,255,255,0.1)", color: "white", border: "1px solid rgba(255,255,255,0.2)", borderRadius: "8px", fontWeight: "600", cursor: "pointer", fontSize: "16px" }}>Cancel</button>
                     </div>
                   </form>
@@ -420,7 +420,7 @@ export default function MyListings() {
                   <div key={product.id} className="inventory-item">
                     <span>{product.productName}</span>
                     <div>
-                      <span style={{ marginRight: "15px", color: "#f5d07a" }}>Rs.{product.price}</span>
+                      <span style={{ marginRight: "15px", color: "#5dade2" }}>Rs.{product.price}</span>
                       <button onClick={() => handleEditProduct(product)}>Edit</button>
                       <button onClick={() => handleDeleteProduct(product.id)} style={{ background: "#ff6b6b", color: "white" }}>Delete</button>
                     </div>

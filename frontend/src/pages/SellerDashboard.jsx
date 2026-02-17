@@ -119,7 +119,7 @@ export default function SellerDashboard() {
           ) : (
             <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '10px', backgroundColor: '#222', borderRadius: '8px', overflow: 'hidden' }}>
               <thead>
-                <tr style={{ backgroundColor: '#d4af37', color: 'black', textAlign: 'left' }}>
+                <tr style={{ backgroundColor: '#3498db', color: 'black', textAlign: 'left' }}>
                   <th style={{ padding: '12px' }}>Order ID</th>
                   <th style={{ padding: '12px' }}>Date</th>
                   <th style={{ padding: '12px' }}>Items</th>
