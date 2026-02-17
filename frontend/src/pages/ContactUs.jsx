@@ -85,7 +85,7 @@ export default function ContactGods() {
       textAlign: "center",
       fontSize: "56px",
       letterSpacing: "8px",
-      color: "#f5e6c8",
+      color: "#aed6f1",
       textShadow: "0 6px 25px rgba(0,0,0,0.6)",
       marginBottom: "20px",
     },
@@ -100,12 +100,12 @@ export default function ContactGods() {
     sectionTitle: {
       fontSize: "26px",
       letterSpacing: "5px",
-      color: "#e8d9b5",
+      color: "#aed6f1",
       marginBottom: "45px",
     },
 
     info: {
-      color: "#f1e8d6",
+      color: "#aed6f1",
       fontSize: "16px",
     },
 
@@ -150,7 +150,7 @@ export default function ContactGods() {
       marginTop: "16px",
       height: "1px",
       background:
-        "linear-gradient(to right, transparent, #e8d9b5, transparent)",
+        "linear-gradient(to right, transparent, #aed6f1, transparent)",
     },
 
     checkbox: {
@@ -159,7 +159,7 @@ export default function ContactGods() {
       gap: "12px",
       fontSize: "13px",
       letterSpacing: "2px",
-      color: "#f1e8d6",
+      color: "#aed6f1",
       marginTop: "12px",
     },
 

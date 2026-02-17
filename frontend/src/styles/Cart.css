@@ -45,7 +45,7 @@
 .cart-header h1 {
   font-family: 'Cinzel', serif;
   font-size: 3rem;
-  color: #eebb5a; /* Gold */
+  color: #5dade2; /* Gold */
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -93,7 +93,7 @@
 }
 
 .cart-item:hover {
-  border-color: rgba(238, 187, 90, 0.3);
+  border-color: rgba(93, 173, 226, 0.3);
 }
 
 .item-image {
@@ -117,7 +117,7 @@
 }
 
 .item-price {
-  color: #eebb5a; /* Gold Price */
+  color: #5dade2; /* Gold Price */
   font-weight: 600;
   font-size: 1rem;
 }
@@ -145,7 +145,7 @@
 }
 
 .qty-btn:hover {
-  background: #eebb5a;
+  background: #5dade2;
   color: black;
 }
 
@@ -173,7 +173,7 @@
   /* Glass Effect */
   background: rgba(0, 0, 0, 0.6); /* Slightly darker for contrast */
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(238, 187, 90, 0.3); /* Gold border */
+  border: 1px solid rgba(93, 173, 226, 0.3); /* Gold border */
   border-radius: 16px;
   padding: 30px;
   height: fit-content;
@@ -205,13 +205,13 @@
   
   font-size: 1.2rem;
   font-weight: 700;
-  color: #eebb5a; /* Gold Total */
+  color: #5dade2; /* Gold Total */
 }
 
 .checkout-btn {
   width: 100%;
   margin-top: 30px;
-  background: linear-gradient(135deg, #eebb5a 0%, #d4a036 100%);
+  background: linear-gradient(135deg, #5dade2 0%, #3498db 100%);
   color: #1a1a1a;
   border: none;
   padding: 15px;
@@ -227,5 +227,5 @@
 
 .checkout-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 20px rgba(238, 187, 90, 0.3);
+  box-shadow: 0 5px 20px rgba(93, 173, 226, 0.3);
 }

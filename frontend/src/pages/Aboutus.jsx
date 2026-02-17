@@ -20,7 +20,7 @@ export default function AboutUsExact() {
       backgroundSize: "cover",
       backgroundPosition: "center",
       fontFamily: "Montserrat, sans-serif",
-      color: "#e7dcc6",
+      color: "#aed6f1",
     },
 
     heroNav: {
@@ -38,7 +38,7 @@ export default function AboutUsExact() {
     },
 
     navGroupLink: {
-      color: "#e7dcc6",
+      color: "#aed6f1",
       textDecoration: "none",
       fontSize: "13px",
       letterSpacing: "3px",
@@ -125,7 +125,7 @@ export default function AboutUsExact() {
       letterSpacing: "4px",
       fontSize: "13px",
       cursor: "pointer",
-      color: hoverBtn ? "#000" : "#e7dcc6",
+      color: hoverBtn ? "#000" : "#aed6f1",
       backgroundColor: hoverBtn ? "#3498db" : "transparent",
       transition: "all 0.4s ease",
       boxShadow: hoverBtn ? "0 0 25px rgba(52,152,219,0.6)" : "none",

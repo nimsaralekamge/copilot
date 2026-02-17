@@ -124,9 +124,9 @@ const Signup = ({ isOpen, onClose, onLoginSuccess, user, onLogout }) => {
         {user ? (
           <div className="profile-view-container" style={{height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
             <img 
-              src={user.picture || `https://ui-avatars.com/api/?name=${user.name || 'User'}&background=c5a059&color=000&size=128&bold=true`} 
+              src={user.picture || `https://ui-avatars.com/api/?name=${user.name || 'User'}&background=7fb3d8&color=000&size=128&bold=true`} 
               alt="Profile" 
-              style={{borderRadius: '50%', border: '4px solid #c5a059', marginBottom: '20px', boxShadow: '0 0 20px rgba(197, 160, 89, 0.4)'}}
+              style={{borderRadius: '50%', border: '4px solid #7fb3d8', marginBottom: '20px', boxShadow: '0 0 20px rgba(127, 179, 216, 0.4)'}}
             />
             <h2 className="drawer-title" style={{fontSize: '24px'}}>{user.name || "Traveler"}</h2>
             <p className="switch-text" style={{marginTop: '5px'}}>{user.email}</p>
@@ -162,10 +162,10 @@ const Signup = ({ isOpen, onClose, onLoginSuccess, user, onLogout }) => {
             </div>
 
             {/* DIVIDER */}
-            <div style={{display: 'flex', alignItems: 'center', marginBottom: '20px', color: 'rgba(197, 160, 89, 0.5)', fontSize: '12px'}}>
-                <div style={{flex: 1, height: '1px', background: 'rgba(197, 160, 89, 0.2)'}}></div>
+            <div style={{display: 'flex', alignItems: 'center', marginBottom: '20px', color: 'rgba(127, 179, 216, 0.5)', fontSize: '12px'}}>
+                <div style={{flex: 1, height: '1px', background: 'rgba(127, 179, 216, 0.2)'}}></div>
                 <span style={{padding: '0 10px'}}>OR USE EMAIL</span>
-                <div style={{flex: 1, height: '1px', background: 'rgba(197, 160, 89, 0.2)'}}></div>
+                <div style={{flex: 1, height: '1px', background: 'rgba(127, 179, 216, 0.2)'}}></div>
             </div>
 
             <form onSubmit={handleSubmit}>

@@ -70,7 +70,7 @@ const StorePage = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 background: '#050505',
-                color: '#f1e2ab',
+                color: '#aed6f1',
                 fontSize: '24px',
                 fontFamily: "'Cinzel', serif"
             }}>
@@ -88,7 +88,7 @@ const StorePage = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 background: '#050505',
-                color: '#f1e2ab',
+                color: '#aed6f1',
                 fontSize: '24px',
                 fontFamily: "'Cinzel', serif"
             }}>
@@ -219,7 +219,7 @@ const StorePage = () => {
                         <div style={{
                             gridColumn: '1 / -1',
                             textAlign: 'center',
-                            color: '#f1e2ab',
+                            color: '#aed6f1',
                             fontSize: '20px',
                             padding: '40px',
                             fontFamily: "'Cinzel', serif"
@@ -230,7 +230,7 @@ const StorePage = () => {
                         <div style={{
                             gridColumn: '1 / -1',
                             textAlign: 'center',
-                            color: '#f1e2ab',
+                            color: '#aed6f1',
                             fontSize: '20px',
                             padding: '40px',
                             fontFamily: "'Cinzel', serif"
